@@ -1,0 +1,229 @@
+* {
+    margin: 3px;
+    padding: 0;
+}
+
+.right {
+    font-size: 1rem;
+    font-family: 'Playball', cursive;
+
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: #13c3d5;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35px;
+    width: 99vw;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.secondsection h1 {
+    position: relative;
+    font-size: 1.6rem;
+    top: 3px;
+    right: 124px;
+
+}
+
+
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li:hover {
+    color: azure;
+    font-size: 1.4rem;
+}
+
+.left {
+    font-size: 1.5rem;
+    font-family: 'Playball', cursive;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    height: 91vh;
+    width: 100vw;
+}
+
+
+.firstSection div {
+    position: relative;
+    width: 49vw;
+    left: 3px;
+    height: 72vh;
+}
+
+.rightSection {
+    position: relative;
+    height: 57vh;
+    width: 49vw;
+}
+
+
+
+.leftSection {
+    font-size: 4rem;
+    height: 90vh;
+    width: 49vw;
+    position: relative;
+}
+
+.leftSection .buttons {
+    padding: 0;
+    position: relative;
+    top: 25px;
+    left: 46px;
+}
+
+.leftSection .btn {
+    padding: 6px;
+    background-color: #3e90759e;
+    color: white;
+    border: 1px solid white;
+    border-radius: 33px;
+    font-size: 20px;
+    cursor: grab;
+}
+
+
+.rightSection img {
+    position: relative;
+    width: 29vw;
+    left: 200px;
+    top: 55px;
+    height: 42vh;
+}
+
+.purple {
+    color: rgb(126, 14, 230);
+}
+
+#element {
+    color: rgb(231, 9, 9);
+}
+
+.text-gray {
+    font-size: 2rem;
+    color: #d60f0f;
+    position: relative;
+    top: 7px;
+    right: 127px;
+}
+
+.secondsection {
+    position: relative;
+    max-width: 80vw;
+    margin: auto;
+    height: 145vh;
+}
+
+hr {
+    position: relative;
+    background-color: #f60606;
+    height: 0.5px;
+    width: 100%;
+
+}
+
+.secondsection .box {
+    background-color: white;
+    width: 99vw;
+    height: 2px;
+    margin: 162px -144px;
+    display: flex;
+
+}
+
+.secondsection .vertical {
+    height: 91px;
+    width: 1px;
+    background-color: white;
+    margin: 4px 140px;
+}
+
+
+.image-top {
+    position: relative;
+    height: 8vh;
+    width: 5vw;
+    top: -65px;
+    left: -43px;
+}
+
+.vertical-title {
+    font-size: 16px;
+    position: relative;
+    top: 19px;
+    width: 100px;
+    left: -36px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 40px;
+    color: aqua;
+    width: 170px;
+    font-size: 16px;
+    left: -55px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 10vh;
+    width: 97vw;
+    position: relative;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-first h3 {
+    color: #000000;
+    font-size: 17px;
+    margin: 0;
+}
+
+.footer-second ul {
+    color: rgb(96, 71, 237);
+    font-size: 15px;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+}
+
+.footer-second ul a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+}
+
+.footer-rights {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+    font-size: 15px;
+}
